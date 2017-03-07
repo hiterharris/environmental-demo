@@ -1,0 +1,109 @@
+body {
+  font-family: sans-serif; }
+
+header {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  position: relative; }
+
+img {
+  float: left;
+  position: absolute;
+  height: 75px;
+  padding-left: 10px;
+  padding-top: 10px; }
+
+video {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1; }
+
+.nav-menu {
+  float: right;
+  margin-right: 10%;
+  padding-top: 25px; }
+  .nav-menu .about-us {
+    background: white;
+    height: 50px;
+    float: left; }
+  .nav-menu .take-action {
+    background: white;
+    height: 50px;
+    float: right; }
+
+.header-text {
+  clear: both;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white; }
+
+.pledge h2 {
+  background: #305291;
+  margin: 0;
+  border-bottom: 1px solid grey;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  color: white; }
+.pledge p {
+  background: #305291;
+  margin: 0;
+  border-bottom: 1px solid grey;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+  color: white;
+  line-height: 30px; }
+
+.issues h2 {
+  background: #F2F2F2;
+  margin: 0;
+  border-bottom: 1px solid grey;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  color: #305291; }
+.issues p {
+  background: #F2F2F2;
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+  color: grey;
+  line-height: 30px; }
+
+.energy, .air-water, .climate-change {
+  background: #F2F2F2;
+  overflow: hidden; }
+  .energy .energy-small, .energy .air-water-small, .energy .climate-change-small, .air-water .energy-small, .air-water .air-water-small, .air-water .climate-change-small, .climate-change .energy-small, .climate-change .air-water-small, .climate-change .climate-change-small {
+    background: white;
+    width: 90%;
+    margin: 5%;
+    height: 300px; }
+    .energy .energy-small i, .energy .air-water-small i, .energy .climate-change-small i, .air-water .energy-small i, .air-water .air-water-small i, .air-water .climate-change-small i, .climate-change .energy-small i, .climate-change .air-water-small i, .climate-change .climate-change-small i {
+      color: #305291;
+      margin-left: 47%;
+      padding-top: 10px; }
+    .energy .energy-small h2, .energy .air-water-small h2, .energy .climate-change-small h2, .air-water .energy-small h2, .air-water .air-water-small h2, .air-water .climate-change-small h2, .climate-change .energy-small h2, .climate-change .air-water-small h2, .climate-change .climate-change-small h2 {
+      color: #305291;
+      text-align: center; }
+    .energy .energy-small p, .energy .air-water-small p, .energy .climate-change-small p, .air-water .energy-small p, .air-water .air-water-small p, .air-water .climate-change-small p, .climate-change .energy-small p, .climate-change .air-water-small p, .climate-change .climate-change-small p {
+      padding-top: 25px;
+      padding-bottom: 25px;
+      padding-left: 25px;
+      padding-right: 25px;
+      text-align: center;
+      color: grey;
+      line-height: 30px; }
+
+/*# sourceMappingURL=style.css.map */

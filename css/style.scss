@@ -1,0 +1,139 @@
+body {
+  font-family:sans-serif;
+}
+
+header {
+  width:100%;
+  height: 600px;
+  overflow:hidden;
+  position: relative;
+}
+
+
+img {
+  float:left;
+  position:absolute;
+  height: 75px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+video {
+  position:absolute;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+.nav-menu {
+  float:right;
+  margin-right: 10%;
+  padding-top: 25px;
+
+  .about-us,  {
+    background:white;
+    height:50px;
+    float:left;
+
+  }
+
+  .take-action {
+    background:white;
+    height:50px;
+    float:right;
+
+  }
+}
+
+.header-text {
+  clear: both;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  color:white;
+}
+
+.pledge {
+  h2 {
+    background:#305291;
+    margin:0;
+    border-bottom:1px solid grey;
+    padding-top:25px;
+    padding-bottom:25px;
+    text-align:center;
+    color:white;
+  }
+
+  p {
+    background:#305291;
+    margin:0;
+    border-bottom:1px solid grey;
+    padding-top:25px;
+    padding-bottom:25px;
+    padding-left:25px;
+    padding-right:25px;
+    text-align:center;
+    color:white;
+    line-height: 30px;
+  }
+}
+
+.issues {
+  h2 {
+    background:#F2F2F2;
+    margin:0;
+    border-bottom:1px solid grey;
+    padding-top:25px;
+    padding-bottom:25px;
+    text-align:center;
+    color:#305291;
+  }
+
+  p {
+    background:#F2F2F2;
+    margin:0;
+    padding-top:25px;
+    padding-bottom:25px;
+    padding-left:25px;
+    padding-right:25px;
+    text-align:center;
+    color:grey;
+    line-height: 30px;
+  }
+}
+
+.energy, .air-water, .climate-change {
+  background:#F2F2F2;
+  overflow:hidden;
+
+  .energy-small, .air-water-small, .climate-change-small {
+    background:white;
+    width:90%;
+    margin:5%;
+    height:300px;
+
+    i {
+      color:#305291;
+      margin-left:47%;
+      padding-top:10px;
+    }
+
+    h2 {
+      color:#305291;
+      text-align:center;
+    }
+
+    p {
+      padding-top:25px;
+      padding-bottom:25px;
+      padding-left:25px;
+      padding-right:25px;
+      text-align:center;
+      color:grey;
+      line-height: 30px;
+    }
+  }
+}
