@@ -130,8 +130,10 @@ footer {
 
 @media (min-width: 767px) {
   nav {
-    width: 90%;
-    margin-left: 5%; }
+    width: 80%;
+    margin-left: 15%; }
+    nav img {
+      padding-left: 25px; }
 
   .pledge h2 {
     padding-top: 100px; }
