@@ -27,11 +27,16 @@ video {
   .nav-menu .about-us {
     background: white;
     height: 50px;
-    float: left; }
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px; }
   .nav-menu .take-action {
     background: white;
     height: 50px;
-    float: right; }
+    float: right;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px; }
 
 .header-text {
   clear: both;
@@ -82,22 +87,22 @@ video {
   color: grey;
   line-height: 30px; }
 
-.energy, .air-water, .climate-change {
+.energy, .air-water, .climate-change, .coal-ash {
   background: #F2F2F2;
   overflow: hidden; }
-  .energy .energy-small, .energy .air-water-small, .energy .climate-change-small, .air-water .energy-small, .air-water .air-water-small, .air-water .climate-change-small, .climate-change .energy-small, .climate-change .air-water-small, .climate-change .climate-change-small {
+  .energy .energy-small, .energy .air-water-small, .energy .climate-change-small, .energy .coal-ash-small, .air-water .energy-small, .air-water .air-water-small, .air-water .climate-change-small, .air-water .coal-ash-small, .climate-change .energy-small, .climate-change .air-water-small, .climate-change .climate-change-small, .climate-change .coal-ash-small, .coal-ash .energy-small, .coal-ash .air-water-small, .coal-ash .climate-change-small, .coal-ash .coal-ash-small {
     background: white;
     width: 90%;
     margin: 5%;
     height: 300px; }
-    .energy .energy-small i, .energy .air-water-small i, .energy .climate-change-small i, .air-water .energy-small i, .air-water .air-water-small i, .air-water .climate-change-small i, .climate-change .energy-small i, .climate-change .air-water-small i, .climate-change .climate-change-small i {
+    .energy .energy-small i, .energy .air-water-small i, .energy .climate-change-small i, .energy .coal-ash-small i, .air-water .energy-small i, .air-water .air-water-small i, .air-water .climate-change-small i, .air-water .coal-ash-small i, .climate-change .energy-small i, .climate-change .air-water-small i, .climate-change .climate-change-small i, .climate-change .coal-ash-small i, .coal-ash .energy-small i, .coal-ash .air-water-small i, .coal-ash .climate-change-small i, .coal-ash .coal-ash-small i {
       color: #305291;
       margin-left: 47%;
       padding-top: 10px; }
-    .energy .energy-small h2, .energy .air-water-small h2, .energy .climate-change-small h2, .air-water .energy-small h2, .air-water .air-water-small h2, .air-water .climate-change-small h2, .climate-change .energy-small h2, .climate-change .air-water-small h2, .climate-change .climate-change-small h2 {
+    .energy .energy-small h2, .energy .air-water-small h2, .energy .climate-change-small h2, .energy .coal-ash-small h2, .air-water .energy-small h2, .air-water .air-water-small h2, .air-water .climate-change-small h2, .air-water .coal-ash-small h2, .climate-change .energy-small h2, .climate-change .air-water-small h2, .climate-change .climate-change-small h2, .climate-change .coal-ash-small h2, .coal-ash .energy-small h2, .coal-ash .air-water-small h2, .coal-ash .climate-change-small h2, .coal-ash .coal-ash-small h2 {
       color: #305291;
       text-align: center; }
-    .energy .energy-small p, .energy .air-water-small p, .energy .climate-change-small p, .air-water .energy-small p, .air-water .air-water-small p, .air-water .climate-change-small p, .climate-change .energy-small p, .climate-change .air-water-small p, .climate-change .climate-change-small p {
+    .energy .energy-small p, .energy .air-water-small p, .energy .climate-change-small p, .energy .coal-ash-small p, .air-water .energy-small p, .air-water .air-water-small p, .air-water .climate-change-small p, .air-water .coal-ash-small p, .climate-change .energy-small p, .climate-change .air-water-small p, .climate-change .climate-change-small p, .climate-change .coal-ash-small p, .coal-ash .energy-small p, .coal-ash .air-water-small p, .coal-ash .climate-change-small p, .coal-ash .coal-ash-small p {
       padding-top: 25px;
       padding-bottom: 25px;
       padding-left: 25px;
@@ -105,5 +110,37 @@ video {
       text-align: center;
       color: grey;
       line-height: 30px; }
+
+.container {
+  border-bottom: 1px solid black;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  background: #f2f2f2; }
+
+footer {
+  background: #f2f2f2;
+  overflow: hidden; }
+  footer p {
+    line-height: 50px;
+    text-align: center;
+    color: darkblue; }
+
+@media (min-width: 767px) {
+  nav {
+    width: 90%;
+    margin-left: 5%; }
+
+  .pledge h2 {
+    padding-top: 100px; }
+  .pledge p {
+    padding-bottom: 100px; }
+
+  .energy, .air-water, .climate-change, .coal-ash {
+    float: left;
+    width: 25%; }
+
+  footer {
+    clear: both;
+    float: none; } }
 
 /*# sourceMappingURL=style.css.map */

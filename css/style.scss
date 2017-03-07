@@ -34,13 +34,17 @@ video {
     background:white;
     height:50px;
     float:left;
-
+    padding-left:10px;
+    padding-right:10px;
   }
 
   .take-action {
     background:white;
     height:50px;
     float:right;
+    margin-left:  10px;
+    padding-left:10px;
+    padding-right:10px;
 
   }
 }
@@ -105,11 +109,11 @@ video {
   }
 }
 
-.energy, .air-water, .climate-change {
+.energy, .air-water, .climate-change, .coal-ash {
   background:#F2F2F2;
   overflow:hidden;
 
-  .energy-small, .air-water-small, .climate-change-small {
+  .energy-small, .air-water-small, .climate-change-small, .coal-ash-small {
     background:white;
     width:90%;
     margin:5%;
@@ -135,5 +139,55 @@ video {
       color:grey;
       line-height: 30px;
     }
+  }
+}
+
+.container {
+  border-bottom: 1px solid black;
+  padding-bottom:25px;
+  padding-top:25px;
+  background:#f2f2f2;
+}
+
+footer {
+  background:#f2f2f2;
+  overflow:hidden;
+
+  p {
+    line-height:50px;
+    text-align:center;
+    color:darkblue;
+  }
+}
+
+@media (min-width:767px) {
+
+  nav {
+    width:90%;
+    margin-left:5%;
+
+  }
+
+  .pledge {
+
+    h2 {
+      padding-top:100px;
+    }
+
+    p {
+      padding-bottom:100px;
+    }
+
+  }
+
+  .energy, .air-water, .climate-change, .coal-ash {
+    float:left;
+    width:25%;
+  }
+
+  footer{
+    clear:both;
+    float:none;
+
   }
 }
